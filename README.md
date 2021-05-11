@@ -1,2 +1,2 @@
 # 한아름 블로그
-[https://hanreum.github.io/blog/](https://b.hanar.site/)
+[https://github.com/Han-a-reum/blog](https://b.hanar.site/)
