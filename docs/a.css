@@ -67,3 +67,13 @@ a {
   background-color: #f9b6a9;
   color: white;
 }
+
+
+.con {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.con {
+  width:1000px;
+}
