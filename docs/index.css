@@ -1,4 +1,4 @@
-/* 폰트 */
+/* 둥근모 폰트 */
 @font-face {
   font-family: 'DungGeunMo';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
@@ -8,9 +8,10 @@
 
 html {
   font-family: 'DungGeunMo', sans-serif;
+  background-color: #afafaf;
 }
 
-/* 노말라이즈 시작*/
+/* 노말라이즈 */
 body,
 ul,
 li {
@@ -24,9 +25,7 @@ a {
   text-decoration: none;
 }
 
-/* 노말라이즈 끝*/
-
-/* 라이브러리 시작*/
+/* 라이브러리 */
 .block {
   display: block;
 }
@@ -51,8 +50,6 @@ a {
   margin-right: auto;
 }
 
-/* 라이브러리 끝*/
-
 /* 커스텀 */
 .con {
   width: 1200px;
@@ -61,8 +58,8 @@ a {
 /* 탑바 시작*/
 .top-bar {
   background-color: white;
-  color:  #ffcc00;
-  border: 3px solid  #ffcc00;
+  color: #ffcc00;
+  border: 3px solid #ffcc00;
   border-radius: 50px;
 }
 
@@ -89,8 +86,10 @@ a {
 
 .top-bar__menu-box-1>ul>li {
   font-size: 1.2rem;
+  position: relative;
 }
 
+/* 1차 메뉴 아이템 텍스트 */
 .top-bar__menu-box-1>ul>li>a {
   padding: 11px 20px;
   display: block;
@@ -105,11 +104,11 @@ a {
 
 /* work-list-box 시작*/
 
-.work-list-box > ul > li {
+.work-list-box>ul>li {
   width: 25%;
 }
 
-.work-list-box > ul > li > img {
+.work-list-box>ul>li>img {
   width: 100%;
   display: block;
 }
