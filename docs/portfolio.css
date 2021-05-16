@@ -68,7 +68,7 @@ a {
 
 /* 탑바 시작 */
 .top-bar {
-  background-color: blue;
+  background-color: #0c00b9;
   color: white;
   margin: 10px;
 }
@@ -142,15 +142,22 @@ a {
 /* 탑바 끝 */
 
 .section-1 > ul > li {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .section-1 > ul > li > a {
   display: block;
-  padding: 10px 3px 10px 30px;
+  padding: 10px 13px 20px 30px;
 }
 
 .section-1 > ul > li:hover > a {
   color: white;
+}
+
+.section-0 {
+  background-color:white;
+  position:relative;
+  z-index:-1;
+  border:10px solid white;
 }
 
 /* section-2 */
@@ -190,7 +197,7 @@ a {
 }
 
 .work-list-box > ul > li > div > .img-box > .addi {
-  background-color:blue;
+  background-color: #0c00b9;
   color:white;
   padding:10px;
   position:absolute;
@@ -219,7 +226,7 @@ a {
 .work-list-box > ul > li > div > .img-box > img {
   transition: transform 1s;
   z-index:-1;
-  position:relative;/
+  position:relative;
 }
 .work-list-box > ul > li:hover > div > .img-box > .bg {
   background-color:rgba(0,0,0,0.7);
@@ -231,3 +238,4 @@ a {
 }
 
 /* work-list-box 끝 */
+
